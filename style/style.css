@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+body {
+    background: #FAFAFA;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.intro {
+    display: flex;
+    max-width: 33.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.intro h2 {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.01563rem;
+}
+
+.intro h1 {
+    color: #4D4F62;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01563rem;
+}
+
+.intro p {
+    color: #4D4F62;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem; 
+    letter-spacing: 0.0065rem;
+    opacity: 0.5;
+}
+
+.card_title {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1.75rem;
+    margin-left: 2rem;
+}
+
+.card_text {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    letter-spacing: 0.00563rem;
+    margin-top: 0.37rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.5;
+}
+
+.supervisor {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-top: 0.25rem solid #44D3D2;
+    max-width: 21.875rem;
+    max-height: 15.625rem;
+    margin-right: 1.87rem;
+}
+
+.card_img {
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+.team_builder {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-top: 0.25rem solid #EA5454;
+    max-width: 21.875rem;
+    max-height: 15.625rem;
+}
+
+.karma {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-top: 0.25rem solid #FCAE4A;
+    max-width: 21.875rem;
+    max-height: 15.625rem;
+}
+
+.calculator {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-top: 0.25rem solid #549EF2;
+    max-width: 21.875rem;
+    max-height: 15.625rem;
+    margin-left: 1.87rem; 
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.87rem;
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .cards {
+        flex-direction: column;
+        
+    }
+    
+    .card{
+        min-width: 19.4375rem;
+        height: 13.875rem;
+    }
+
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .supervisor{
+        margin-right: 0rem;
+        margin-bottom: 1.56rem;
+    }
+    .calculator{
+        margin-left: 0rem;
+        margin-top: 1.56rem;
+    }
+    
+    .mid{
+        gap: 1.56rem;
+    }
+
+    .intro{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.01044rem;
+        width: 20rem;
+        text-align: center;
+    }
+
+    .intro h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.01044rem;
+        text-align: center;
+    }
+
+    .intro p {
+        font-size: 0.9375rem;
+        letter-spacing: 0.0065rem;
+        width: 19rem;
+        margin-top: 1rem;
+    }
+
+
+}    
